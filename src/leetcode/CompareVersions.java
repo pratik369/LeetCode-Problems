@@ -57,6 +57,6 @@ public class CompareVersions {
     
     public static void main(String[] args){
         CompareVersions cmp  = new CompareVersions();
-        System.out.println(cmp.compareVersion("1.1", "1.1.1"));
+        System.out.println(cmp.compareVersion("1.1.0", "1.0.1"));
     }
 }
