@@ -39,7 +39,7 @@ public class RomanToInt {
             char c2 = s.charAt(start+1);
             int val2 = map.get(c2);
             if(val2 > val)
-                return val2- val + romanToInt(s,start+2);
+                return val2 - val + romanToInt(s,start+2);
         }
         //in case of XII
         return val + romanToInt(s,start+1);

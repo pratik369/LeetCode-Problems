@@ -40,7 +40,7 @@ public class BuildBinTreeInorderPreOrder {
         root.right = binaryTreeBuilder(inorder,iStart+1+leftsize, preorder,pStart + 1+ leftsize, length - leftsize - 1);
         
         
-            return root;
+        return root;
         
        
     }
